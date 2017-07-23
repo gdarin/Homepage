@@ -1,0 +1,114 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/59/e8/0e59e8f1a03e0e82f597f6d698d1d8ac.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.linktable{
+  padding-top: 2px;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+}
+.search{
+  padding-left: 7px;
+  padding-top: 7px;
+}
+table{
+  height: 40%;
+  margin: 20px auto;
+  position: static;
+  width: 80%;
+}
+tr{  
+  background: rgba(200, 200, 200, .4);
+  border-bottom: 1px solid #FFF;
+}
+td{
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+td:hover{
+  background-color: rgba(50, 50, 50, .4);
+}
+#searchtext{
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 5px;
+}
+#button{
+  background-color: white;
+  color: red;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 3px;
+  transition-duration: .2s;
+}
+#button:hover{
+  background-color: red;
+  color: white;
+}
+#button:active{
+  background-color: red;
+  box-shadow: 0 2px #666;
+  transform: translateY(7px);
+}
+#weather{
+  height: 85px; width: 105px;
+}
+#wiscmail{
+  height: 100px; width: 95px;
+}
+#dashboard{
+  height: 120px; width: 115px;
+}
+#uwreddit{
+  height: 105px; width: 90px;
+}
+#codeacademy{
+  height: 135px; width: 135px;
+}
+#recsports{
+  height: 121px; width: 121px;
+  border-radius: 75%;
+}
+#pmt{
+  height: 125px; width: 125px;
+  border-radius: 30%;
+}
+#amazon{
+  height: 123px; width: 123px;
+  border-radius: 75%;
+}
+#netflix{
+  height: 130px; width: 135px;
+  border-radius: 75%;
+}
+#hbogo{
+  height: 130px; width: 130px;
+  border-radius: 75%;
+}
+#github{
+  height: 131px; width: 131px;
+}
+#nflfantasy{
+  height: 125px; width: 135px;
+  border-radius: 25%;
+}
+#soundcloud{
+  height: 145px; width: 145px;
+}
+#facebook{
+  height: 110px; width: 110px;
+}
+#youtube{
+  height: 130px; width: 130px;
+}
+#linkedin{
+  height: 110px; width: 110px;
+}
